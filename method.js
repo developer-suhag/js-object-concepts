@@ -17,8 +17,8 @@ const student = {
         return this.money;
     },
 
-    dobuleIt: () => {
-        console.log('Ami sara dine coding kori');
+    dobuleIt: (x, y) => {
+        return x * y;
     }
 };
 
@@ -26,4 +26,5 @@ student.doCode()
 const remaining = student.cost(2000);
 console.log(remaining);
 
-student.dobuleIt()
+// student.dobuleIt()
+console.log(student.dobuleIt(2, 4));
